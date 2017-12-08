@@ -1,0 +1,17 @@
+
+ .s-skin-container {
+ 	height: 100%;
+    width: 100%;
+     position: fixed;
+    _position: absolute;
+    top: 0;
+    left: 0;
+    background-position: center 0;
+     background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    zoom: 1;
+    
+    background-image: url('./../img/login2.jpg');
+	background-repeat:no-repeat;
+ }
