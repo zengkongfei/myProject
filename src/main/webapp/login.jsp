@@ -27,6 +27,14 @@
 					    border-radius: 5px;
 					    text-align: center;
         }
+         .errorTips{
+            width:70%;
+            color:red;
+            font-size: 14px;
+            margin:0 auto;
+            height: 20px;
+            line-height:20px;
+        }
 </style>
 </head>
 <body class="hold-transition login-page s-skin-container" onload="changeImg()">
@@ -71,10 +79,10 @@
     </form>
 
     <div class="social-auth-links text-center">
-        <p class="errorTips" id="errorTips"></p> 
+      
       <button type="submit" class="btn btn-primary btn-block btn-flat" onclick="return check()">登录</button>
     </div>  
-  
+    <p class="errorTips" id="errorTips"></p> 
 	
   </div>
 
