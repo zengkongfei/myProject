@@ -65,7 +65,7 @@ public class ImageCodeController {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		return "SUCCESS";
+		return "login";
 	}
 
 	private Color getRandColor(int fc, int bc) {
